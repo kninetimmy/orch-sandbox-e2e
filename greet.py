@@ -1,4 +1,4 @@
-"""Trivial module the sandbox Delivery cycle mutates."""
+"""Trivial module providing greet and farewell functions for the sandbox Delivery cycle."""
 
 
 def greet(name: str) -> str:
