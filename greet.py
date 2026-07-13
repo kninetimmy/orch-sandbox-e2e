@@ -9,6 +9,11 @@ def farewell(name: str) -> str:
     return f"Goodbye, {name}!"
 
 
+def birthday(name: str, age: int) -> str:
+    return f"Happy birthday, {name}, you are {age}!"
+
+
 if __name__ == "__main__":
     print(greet("world"))
     print(farewell("world"))
+    print(birthday("world", 1))
